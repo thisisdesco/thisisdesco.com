@@ -1,0 +1,23 @@
+/* TEAM */
+  Andrew Pucci
+  Twitter: https://twitter.com/AndrewRPucci
+  Website: https://www.andrewpucci.com
+
+  Kimberly Gail Loseñara
+  Instagram: https://instagram.com/thingsmyhands
+  Twitter: https://twitter.com/kmbrlygl
+  Dribbble: https://dribbble.com/kmbrlygl
+
+  Milo Cho
+  Instagram: https://instagram.com/bymilocho
+
+  Noelle Szombathy
+  Instagram: https://instagram.com/noellered
+
+  Tanushree Padath
+  Instagram: https://instagram.com/_tan_u
+
+/* SITE */
+  Standards: CSS3, HTML5
+  Components: 11ty, Gulp
+  Software: VS Code, GitHub Desktop

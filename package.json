@@ -10,6 +10,12 @@
   "author": "DESCO <thisisdesco@gmail.com>",
   "license": "GPL-3.0",
   "private": false,
+  "scripts": {
+    "dev": "gulp clean && NODE_ENV=development gulp build && (ELEVENTY_ENV=development eleventy --serve & NODE_ENV=development gulp watch)",
+    "prod": "gulp clean && NODE_ENV=production gulp build && ELEVENTY_ENV=production eleventy",
+    "build": "gulp clean && NODE_ENV=development gulp build && ELEVENTY_ENV=development eleventy",
+    "clean": "gulp clean"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@babel/core": "^7.7.7",
