@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  {% include 'head.njk' %}
+  <body>
+    {% if site.environment == "production" %}<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.GTMID }}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>{% endif %}
+    {% include 'header.njk' %}
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ content | safe }}
+      </div>
+    </main>
+    {% include 'footer.njk' %}
+    <script src="{{ '/assets/js/deps.js' | url }}" type="text/javascript"></script>
+    <script src="{{ '/assets/js/scripts.js' | url }}" type="text/javascript"></script>
+  </body>
+</html>
